@@ -1,0 +1,35 @@
+
+((:= (cons
+      (lambda (x (lambda (y
+        (lambda (i (if ((= i 0) (x y)))))
+                          )))))) 
+
+((:= (car 
+       (lambda (z (z 0)))))
+((:= (l ((cons (' first)) (' second))))
+((:= (s 100))
+((:= (add (lambda (x
+              (lambda (y
+                (if ((= x 1) ((if ((= y 2) ((' third) 0))) 0)))))))))
+
+((:= (fac (lambda (self
+                (lambda (n
+                    (if ((= n 0) (1
+                        (* n ((self self) (- n 1))))))))))))
+
+ (* ((fac fac) 5) 2)
+
+
+
+
+))))))
+
+
+
+
+
+
+
+
+
+
